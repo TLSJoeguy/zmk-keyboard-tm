@@ -15,14 +15,14 @@
             <&gpio0 11 (GPIO_ACTIVE_HIGH | GPIO_PULL_DOWN)>; //R1
             
         col-gpios
-            = <&gpio0 31 GPIO_ACTIVE_HIGH>, //C1
-            <&gpio0 29 GPIO_ACTIVE_HIGH>, //C2
-            <&gpio0 2 GPIO_ACTIVE_HIGH>, //C3
-            <&gpio1 15 GPIO_ACTIVE_HIGH>, //C4
-            <&gpio1 13 GPIO_ACTIVE_HIGH>, //C5
-            <&gpio1 11 GPIO_ACTIVE_HIGH>, //C6
+            = <&gpio0 9 GPIO_ACTIVE_HIGH>, //C8
             <&gpio0 10 GPIO_ACTIVE_HIGH>, //C7
-            <&gpio0 9 GPIO_ACTIVE_HIGH>; //C8
+            <&gpio1 11 GPIO_ACTIVE_HIGH>, //C6
+            <&gpio1 13 GPIO_ACTIVE_HIGH>, //C5
+            <&gpio1 15 GPIO_ACTIVE_HIGH>, //C4
+            <&gpio0 2 GPIO_ACTIVE_HIGH>,  //C3
+            <&gpio0 29 GPIO_ACTIVE_HIGH>, //C2
+            <&gpio0 31 GPIO_ACTIVE_HIGH>; //C1
     };
 };
 
