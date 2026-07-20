@@ -1,6 +1,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
+#include <dt-bindings/zmk/bt.h>
 
 #define QWERTYMAC  0  //Default layer
 #define QWERTYWIN  1  //Default layer w/ modifier keys for windows
